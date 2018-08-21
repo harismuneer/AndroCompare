@@ -1,29 +1,71 @@
 # AndroCompare - a tool to compare two Android Apps
-AndroCompare is a tool which takes two Android Apps (.APK Files) and compares them on a variety of factors.
+AndroCompare is a tool which takes two Android Apps (.APK Files), compares them on a variety of factors and saves the resulting differences and similarities in a database.
 
-## Approach
-The download URL of an app on Xiaomi App Store is like http://app.mi.com/download/23 
-The number at the end of the URL can be incremented to download as many apps as you want. So, theoretically you can download each and every app on the Xiaomi App Store. Hence there's a variable named 'target' in the tool. If target = 1000 then the tool will scan first 1000 urls for the apps. You can change the target to any number you want.
-
+This tool is extremely fast and can be used to do massive comparison of a large number of apps quickly. 
+Two sample apps named app1.apk and app2.apk are provided. These apps have been compared and their results are saved in the database so that you can see how the results are organized.
 
 ## Features
-* download all apps from the famous Xiaomi App Store
-* download pairs of an app from Play Store and Xiaomi App Store
-* the record of all downloaded apps is maintained in a SQLite database
-* if the code is interrupted using CTRL + Z then the current progress is saved so that next time the code resumes downloading from where it left previously
-* incase the script is running and there occurs some internet connectivity issue then all current progress is saved and the script waits until the internet is connected again and resumes from where it left
+It compares apps for differences in:
+* permissions requested
+* activities
+* services
+* broadcast receivers
+* content providers
+* apk size
+* version name and code
+* signing certificate
 
-## How to Run Code
-The code is in ready to run condition. It can be run on both Windows/Ubuntu Linux. 
-Its written in Python 3. Moreover it uses [gplaycli](https://github.com/matlink/gplaycli), so install it using pip.
+and saves the results in an organized way in a SQLite database. 
+
+
+## Schema of Database
+```
+CREATE TABLE `APPS` (
+	`app1_name`	TEXT,
+	`app2_name`	TEXT,
+	`app1_package`	TEXT,
+	`app2_package`	TEXT,
+	`app1_size`	TEXT,
+	`app2_size`	TEXT,
+	`app1_version_name`	TEXT,
+	`app2_version_name`	TEXT,
+	`app1_version_code`	TEXT,
+	`app2_version_code`	TEXT,
+	`perm_analysis`	TEXT,
+	`perm_same`	TEXT,
+	`perm_added`	TEXT,
+	`perm_removed`	TEXT,
+	`perm_add_count`	TEXT,
+	`app1_cert`	TEXT,
+	`app2_cert`	TEXT,
+	`cert_diff`	TEXT,
+	`app1_main_activity`	TEXT,
+	`app2_main_activity`	TEXT,
+	`main_activity_diff`	TEXT,
+	`same_activities`	TEXT,
+	`activities_added`	TEXT,
+	`activities_removed`	TEXT,
+	`same_services`	TEXT,
+	`services_added`	TEXT,
+	`services_removed`	TEXT,
+	`same_receivers`	TEXT,
+	`receivers_added`	TEXT,
+	`receivers_removed`	TEXT,
+	`same_providers`	TEXT,
+	`providers_added`	TEXT,
+	`providers_removed`	TEXT
+);
+```
+
+----------------------------------------------------------------------------------------------------------------------------------------
+## How to Run 
+Its written in Python 2.6. Moreover it uses the "hurry.filesize" module. So, install it using the following command
+```pip install hurry.filesize```
 
 You can use [DB Browser for SQLite](http://sqlitebrowser.org/) to view the database.
 
-----------------------------------------------------------------------------------------------------------------------------------------
 ## Note
-This script can be easily modified to meet your specific needs e.g currently it first checks whether an app is present on both stores and if yes then it downloads it from each store. You can remove this constraint to download every possible app from Xiaomi App Store.
-
-This code is for research purposes only.
+This tool is for research purposes only.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
