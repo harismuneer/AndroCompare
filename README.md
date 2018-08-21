@@ -4,6 +4,8 @@ AndroCompare is a tool which takes two Android Apps (.APK Files), compares them 
 This tool is extremely fast and can be used to do massive comparison of a large number of apps quickly. 
 Two sample apps named app1.apk and app2.apk are provided. These apps have been compared and their results are saved in the database so that you can see how the results are organized.
 
+Moreover if two apps have same package name but differ hugely in the number of permissions requested and the activities etc then there's a strong chance that one of them is repackaged. So, this tool can highlight the extra permissions/activities added to the repackaged version and consequently help in malware detection too.
+
 ## Features
 It compares apps for differences in:
 * permissions requested
