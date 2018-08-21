@@ -1,4 +1,4 @@
-# AndroCompare - a tool to compare two Android Apps (APK Files)
+# AndroCompare - a tool to compare two Android Apps
 AndroCompare is a tool which takes two Android Apps (.APK Files) and compares them on a variety of factors.
 
 ## Approach
