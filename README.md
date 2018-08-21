@@ -61,7 +61,7 @@ CREATE TABLE `APPS` (
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 ## How to Run 
-Its written in Python 2.6. Moreover it uses the "hurry.filesize" module. So, install it using the following command
+Its written in Python 2.6 and currently supports Linux only. Moreover it uses the "hurry.filesize" module. So, install it using the following command
 
 ```pip install hurry.filesize```
 
