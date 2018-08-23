@@ -61,11 +61,19 @@ CREATE TABLE `APPS` (
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 ## How to Run 
+In the code file 'andro_compare.py', change the path variables to the apps to be compared: 
+```
+# change the paths to the relevant apps to be compared
+apk1_path = "./app1.apk"
+apk2_path = "./app2.apk"
+```
+
 Its written in Python 2.6 and currently supports Linux only. Moreover it uses the "hurry.filesize" module. So, install it using the following command
 
 ```pip install hurry.filesize```
 
 You can use [DB Browser for SQLite](http://sqlitebrowser.org/) to view the database.
+
 
 ## Note
 This tool is for research purposes only.
