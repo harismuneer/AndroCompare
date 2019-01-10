@@ -1,5 +1,7 @@
 # ⚙️ AndroCompare - a tool to compare two Android Apps
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2537126.svg)](https://doi.org/10.5281/zenodo.2537126)
+
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](#)
 [![GitHub Forks](https://img.shields.io/github/forks/harismuneer/AndroCompare.svg?style=social&label=Fork&maxAge=2592000)](https://www.github.com/harismuneer/AndroCompare/fork)
 [![Build Status](https://semaphoreapp.com/api/v1/projects/d4cca506-99be-44d2-b19e-176f36ec8cf1/128505/badge.svg)](#)
@@ -14,6 +16,8 @@ This tool is extremely fast and can be used to do massive comparison of a large 
 Two sample apps named app1.apk and app2.apk are provided. These apps have been compared and their results are saved in the database so that you can see how the results are organized.
 
 Moreover if two apps have same package name but differ hugely in the number of permissions requested and the activities etc then there's a strong chance that one of them is repackaged. So, this tool can highlight the extra permissions/activities added to the repackaged version and consequently help in malware detection too.
+
+For details regarding **citing/referencing** this tool for your research, check the 'Citation' section below.
 
 ## Features
 It compares apps for differences in:
@@ -86,6 +90,14 @@ You can use [DB Browser for SQLite](http://sqlitebrowser.org/) to view the datab
 
 ## Note
 This tool is for research purposes only.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+## Citation
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2537126.svg)](https://doi.org/10.5281/zenodo.2537126)
+
+If you use this tool for your research, then kindly cite it. Click the above badge for more information regarding the complete citation for this tool and diffferent citation formats like IEEE, APA etc.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
