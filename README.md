@@ -1,16 +1,36 @@
-# ⚙️ AndroCompare - a tool to compare two Android Apps
+<a href="#">
+  <div align="center">
+    <img src="images/title.png" width='154'/>
+  </div>
+</a>
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2537126.svg)](https://doi.org/10.5281/zenodo.2537126)
+<h1 align="center">AndroCompare</h1>
 
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](#)
-[![GitHub Forks](https://img.shields.io/github/forks/harismuneer/AndroCompare.svg?style=social&label=Fork&maxAge=2592000)](https://www.github.com/harismuneer/AndroCompare/fork)
-[![Build Status](https://semaphoreapp.com/api/v1/projects/d4cca506-99be-44d2-b19e-176f36ec8cf1/128505/badge.svg)](#)
-[![GitHub Issues](https://img.shields.io/github/issues/harismuneer/AndroCompare.svg?style=flat&label=Issues&maxAge=2592000)](https://www.github.com/harismuneer/AndroCompare/issues)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat&label=Contributions&colorA=red&colorB=black	)](#)
+<p align="center">
+  AndroCompare is a tool which takes two Android Apps (.APK files), compares them on a variety of factors and saves the resulting differences and similarities in a database.
+</p>
 
+<p align="center">
+  <a href="https://doi.org/10.5281/zenodo.2537126">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.2537126.svg" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Build-Passing-brightgreen.svg?style=flat-square&logo=appveyor" />
+  </a>
+  <a href="#">
+    <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" />
+  </a>
+  <a href="https://www.github.com/harismuneer/AndroCompare/fork">
+    <img src="https://img.shields.io/github/forks/harismuneer/AndroCompare.svg?style=social&label=Fork&maxAge=2592000" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat&label=Contributions&colorA=red&colorB=black" />
+  </a>
+</p>
 
+<hr>
 
-AndroCompare is a tool which takes two Android Apps (.APK Files), compares them on a variety of factors and saves the resulting differences and similarities in a database.
+## Description
 
 This tool is extremely fast and can be used to do massive comparison of a large number of apps quickly. 
 Two sample apps named app1.apk and app2.apk are provided. These apps have been compared and their results are saved in the database so that you can see how the results are organized.
