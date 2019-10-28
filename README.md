@@ -1,6 +1,6 @@
 <a href="#">
   <div align="center">
-    <img src="title.png" width='300'/>
+    <img src="main-title.png" width='300'/>
   </div>
 </a>
 
