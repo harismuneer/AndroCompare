@@ -139,6 +139,8 @@ To stay updated about my latest projects: [![GitHub Follow](https://img.shields.
 To stay updated about my latest projects: [![GitHub Follow](https://img.shields.io/badge/Connect-Hussam--Habib-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/hussamh10)
 
 
+
+---
 If you liked the repo then kindly support it by giving it a star ⭐!
 
 ## Contributions Welcome
