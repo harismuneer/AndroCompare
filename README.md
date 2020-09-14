@@ -134,9 +134,9 @@ To stay updated about my latest projects: [![GitHub Follow](https://img.shields.
 
 #### Hussam Habib
 
-[![LinkedIn Link](https://img.shields.io/badge/Connect-Hussam--Habib-blue.svg?logo=linkedin&longCache=true&style=social&label=Connect)](https://www.linkedin.com/in/hussam-habib-0bb098104/)
+[![LinkedIn Link](https://img.shields.io/badge/Connect-hussam--habib-blue.svg?logo=linkedin&longCache=true&style=social&label=Connect)](https://www.linkedin.com/in/hussam-habib-0bb098104/)
 
-To stay updated about my latest projects: [![GitHub Follow](https://img.shields.io/badge/Connect-Hussam--Habib-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/hussamh10)
+To stay updated about my latest projects: [![GitHub Follow](https://img.shields.io/badge/Connect-hussam--habib-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/hussamh10)
 
 
 
