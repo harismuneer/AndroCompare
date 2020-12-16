@@ -37,6 +37,8 @@ Two sample apps named app1.apk and app2.apk are provided. These apps have been c
 
 Moreover if two apps have same package name but differ hugely in the number of permissions requested and the activities etc then there's a strong chance that one of them is repackaged. So, this tool can highlight the extra permissions/activities added to the repackaged version and consequently help in malware detection too.
 
+In order to create a dataset of apps, we wrote another tool: [Android Apsp Scraper/Downloader](https://github.com/harismuneer/Android-Apps-Downloader)
+
 For details regarding **citing/referencing** this tool for your research, check the 'Citation' section below.
 
 ## Features
