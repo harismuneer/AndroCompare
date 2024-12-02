@@ -1,16 +1,10 @@
-<a href="#">
-  <div align="center">
-    <img src="main-title.png" width='200'/>
-  </div>
-</a>
+<h1 align="left">AndroCompare</h1>
 
-<h1 align="center">AndroCompare</h1>
-
-<p align="center">
+<p align="left">
   AndroCompare is a tool which takes two Android Apps (.APK files), compares them on a variety of factors and saves the resulting differences and similarities in a database.
 </p>
 
-<p align="center">
+<p align="left">
 <a href="https://github.com/harismuneer"><img alt="views" title="Github views" src="https://komarev.com/ghpvc/?username=harismuneer&style=flat-square" width="125"/></a>
   <a href="https://doi.org/10.5281/zenodo.2537126">
     <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.2537126.svg" />
@@ -33,7 +27,7 @@
 
 ## Description
 
-This tool is extremely fast and can be used to do massive comparison of a large number of apps quickly. 
+This tool is fast and can be used to do comparison of a large number of apps. 
 Two sample apps named app1.apk and app2.apk are provided. These apps have been compared and their results are saved in the database so that you can see how the results are organized.
 
 Moreover if two apps have same package name but differ hugely in the number of permissions requested and the activities etc then there's a strong chance that one of them is repackaged. So, this tool can highlight the extra permissions/activities added to the repackaged version and consequently help in malware detection too.
