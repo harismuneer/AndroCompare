@@ -1,4 +1,4 @@
-<h1 align="left">AndroCompare</h1>
+<h1 align="left">⚙️ AndroCompare</h1>
 
 <p align="left">
   AndroCompare is a tool which takes two Android Apps (.APK files), compares them on a variety of factors and saves the resulting differences and similarities in a database.
